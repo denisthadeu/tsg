@@ -27,7 +27,7 @@ define( 'DB_NAME', 'tsg_com_br' );
 define( 'DB_USER', 'root' );
 
 /** Senha do banco de dados MySQL */
-define( 'DB_PASSWORD', '123Mudar' );
+define( 'DB_PASSWORD', '' );
 
 /** Nome do host do MySQL */
 define( 'DB_HOST', 'localhost' );

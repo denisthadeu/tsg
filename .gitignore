@@ -12,6 +12,10 @@ wp-content/*
 !wp-content/mu-plugins/
 !wp-content/plugins/
 !wp-content/themes/
+!wp-content/uploads/
+!wp-content/languages/
+!wp-content/index.php
+
 
 # ignore these plugins
 wp-content/plugins/hello.php
@@ -24,7 +28,7 @@ node_modules/
 
 # ignore log files and databases
 *.log
-.sql
+*.sql
 *.sqlite
 
 # End of https://www.gitignore.io/api/wordpress
