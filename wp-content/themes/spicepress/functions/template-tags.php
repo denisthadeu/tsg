@@ -264,14 +264,14 @@ $menu_breakpoint = get_theme_mod('menu_breakpoint', 1100);
 	.navbar .navbar-nav > .active > a, 
 	.navbar .navbar-nav > .active > a:hover, 
 	.navbar .navbar-nav > .active > a:focus {
-		color: #0faf19;
+		color: #fff;
 		background-color: transparent;
 	}
 	.navbar .navbar-nav > .open > a,
 	.navbar .navbar-nav > .open > a:hover,
 	.navbar .navbar-nav > .open > a:focus { 
 		background-color: transparent; 
-		color: #0faf19; 
+		color: #fff; 
 		border-bottom: 1px dotted #4c4a5f; 
 	}
 }
@@ -475,7 +475,7 @@ $menu_breakpoint = get_theme_mod('menu_breakpoint', 1100);
 	/* Navbar */
 	.navbar-custom .navbar-nav { letter-spacing: 0px; margin-top: 1px; margin-bottom: 0; }
 	.navbar-custom .navbar-nav li { margin: 0 15px; padding: 0; }
-	.navbar-custom .navbar-nav li > a { color: #bbb; padding: 12px 0px 12px 0px; }
+	.navbar-custom .navbar-nav li > a { color: #fff; font-weight: bold; padding: 12px 0px 12px 0px; }
 	.navbar-custom .navbar-nav > li > a:focus,
 	.navbar-custom .navbar-nav > li > a:hover {
 		background: transparent;

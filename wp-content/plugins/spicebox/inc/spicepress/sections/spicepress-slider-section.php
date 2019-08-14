@@ -20,7 +20,7 @@ if ( ! function_exists( 'spiceb_spicepress_slider' ) ) :
 	<section class="slider" style="position:relative;">
 		<div class="item" style="background-image:url(<?php echo $home_slider_image; ?>); width: 100%; height: 90vh; background-position: center center; background-size: cover; z-index: 0;" >
 		<?php $slider_image_overlay = get_theme_mod('slider_image_overlay',true);
-			$slider_overlay_section_color = get_theme_mod('slider_overlay_section_color','rgba(0,0,0,0.30)');
+			//$slider_overlay_section_color = get_theme_mod('slider_overlay_section_color','rgba(0,0,0,0.30)');
 			if($slider_image_overlay != false) { ?>
 			<div class="overlay" style="background-color:<?php echo $slider_overlay_section_color;?>"></div>
 			<?php } ?>
